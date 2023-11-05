@@ -1,23 +1,9 @@
 {
-  "name": "sample-webpack-dev-server",
-  "version": "1.0.0",
-  "description": "Simple Webpack Server",
-  "main": "webpack.config.js",
+  "description": "Simple React App with Webpack Dev Server",
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "start": "webpack serve --port 80 --open"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vvasylkovskyi/sample-webpack-dev-server.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vvasylkovskyi/sample-webpack-dev-server/issues"
-  },
-  "homepage": "https://github.com/vvasylkovskyi/sample-webpack-dev-server#readme",
   "devDependencies": {
     "@babel/core": "^7.23.2",
     "@babel/plugin-transform-runtime": "^7.23.2",
