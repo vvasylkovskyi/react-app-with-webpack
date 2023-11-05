@@ -5,8 +5,9 @@ module.exports = {
   mode: "development", // Sets the mode to development (as opposed to production)
   entry: "./src/index.js", // Points to our app's entry file
   output: {
-    filename: "bundle.js", // Names our bundled file
-    path: path.resolve(__dirname, "dist"), // Designates where to put the bundled file
+    filename: "index.js",
+    path: path.resolve(__dirname, "dist"),
+    clean: true,
   },
   module: {
     rules: [
